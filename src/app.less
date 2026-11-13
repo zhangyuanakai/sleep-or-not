@@ -1,0 +1,44 @@
+/**
+ * 注意：Taro 4 的 Vue3 小程序运行时只会把 class/style 等白名单属性写入 WXML，
+ * <style scoped> 生成的 [data-v-xxx] 不会出现在真实节点上，会导致小程序端样式整体失效。
+ * 因此本项目所有 SFC 样式均不使用 scoped，改用全局样式 + 唯一类名隔离。
+ */
+page {
+  --color-bg: #0f172a;
+  --color-bg-deep: #0b1120;
+  --color-card: #1e293b;
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-indigo: #6366f1;
+  --color-amber: #f59e0b;
+  --color-emerald: #10b981;
+  --color-danger: #ef4444;
+  --font-display: 'DIN Alternate', 'DINPro', 'Roboto Mono', 'SF Mono', 'Helvetica Neue',
+    monospace;
+  --font-body: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue',
+    'Segoe UI', Roboto, sans-serif;
+
+  min-height: 100%;
+  background: #0b1120;
+  color: #f8fafc;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+view,
+text,
+input,
+button,
+canvas,
+scroll-view {
+  box-sizing: border-box;
+}
+
+button::after {
+  border: none;
+}
+
+.number-font {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+}

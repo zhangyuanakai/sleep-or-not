@@ -1,0 +1,16 @@
+{
+  "miniprogramRoot": "./dist",
+  "cloudfunctionRoot": "./cloudfunctions",
+  "projectname": "sleep-or-not",
+  "description": "《睡了么》是一款专注于改善当代年轻人熬夜作息的22天习惯养成契约工具。用户通过设定每日目标入睡时间（如22:30），开启夜间沉浸式助眠守护模式；结合微信运动步数统计与晨间动态口令打卡机制，帮助用户摆脱睡前手机依赖、建立规律的早睡早起生物钟，并支持22天周期进度可视化追踪与灵活请假管理。",
+  "appid": "wxeb1f8479b8146b5c",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

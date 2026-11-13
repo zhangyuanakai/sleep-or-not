@@ -1,0 +1,9 @@
+{
+  "name": "pushWakeupNotice",
+  "version": "1.0.0",
+  "description": "每日 06:30 扫描守护中的用户并下发晨间唤醒订阅消息",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

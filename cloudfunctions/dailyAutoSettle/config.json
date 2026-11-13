@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    {
+      "name": "dailyAutoSettleTimer",
+      "type": "timer",
+      "config": "0 35 8 * * * *"
+    }
+  ]
+}

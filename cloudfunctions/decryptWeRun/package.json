@@ -1,0 +1,9 @@
+{
+  "name": "decryptWeRun",
+  "version": "1.0.0",
+  "description": "解密微信运动 CloudID，返回最新步数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dailyAutoSettle",
+  "version": "1.0.0",
+  "description": "每日 08:35 自动结算未完成晨间验证 / 未入睡的记录",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}
